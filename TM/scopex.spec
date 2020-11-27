@@ -1,5 +1,5 @@
 tmcbase = base.tmc
-# swsbase = scopex.sws
+swsbase = scopex.sws
 # swsbase = pmc.sws
 genuibase = scopex.genui
 

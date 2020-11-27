@@ -1,23 +1,24 @@
 
 --------Frame Statistics-----------
 Major Frame: 2 minor frames, 1 Hz
-Minor Frame: 9 bytes, 2 Hz
+Minor Frame: 10 bytes, 2 Hz
 Effective Frame Dimensions:
-  2 Rows 9 Columns
+  2 Rows 10 Columns
   2 rows/sec
-  144 bits/sec
-  Data:  80 bits/sec  56 %
-  Synch: 64 bits/sec  44 %
-  Empty: 0 bits/sec  0 %
+  160 bits/sec
+  Data:  88 bits/sec  55 %
+  Synch: 64 bits/sec  40 %
+  Empty: 8 bits/sec  5 %
 -------End of Frame Statistics-----
 
 
 --------PCM Definition-------------
 2/1 Hz 2 bytes Datum MFCtr (1,0,0,2)
-2/1 Hz 2 bytes Datum Synch (1,0,7,2)
+2/1 Hz 2 bytes Datum Synch (1,0,8,2)
 1/1 Hz 4 bytes Datum SysTDrift (2,0,2,4)
-1/1 Hz 2 bytes Datum memused (2,0,6,1) (2,1,6,1)
-1/1 Hz 2 bytes Datum CPU_Pct (2,1,2,2)
-1/1 Hz 2 bytes Datum Disk (2,1,4,2)
+1/1 Hz 2 bytes Datum CPU_Pct (2,0,6,2)
+1/1 Hz 2 bytes Datum Disk (2,1,2,2)
+1/1 Hz 2 bytes Datum memused (2,1,4,2)
+1/1 Hz 1 bytes Datum SWStat (2,1,6,1)
 -------End of PCM Definition-------
 
