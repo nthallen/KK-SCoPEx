@@ -1,5 +1,6 @@
 <package> CAN
 <include> "scopex_can.h"
+<follow> msg
 
 <defs>
   subbuspp *CAN;

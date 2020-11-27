@@ -12,13 +12,11 @@ scopexsrvroui.o
 scopexcltnc.o
 scopexcltncoui.cc
 scopexcltncoui.o
-scopextblnc.tmc
 B3MBtblnc.tmc
 scopexdispnc.cc
 scopexdispncoui.cc
 scopexdispnc.o
 scopexdispncoui.o
-scopexalgosws.tma
 scopexalgoa.tmc
 scopexalgo.cc
 scopexalgooui.cc
@@ -39,7 +37,6 @@ scopexengext.cc
 scopexengextoui.cc
 scopexengext.o
 scopexengextoui.o
-scopextblnc.tmc.dep
 B3MBtblnc.tmc.dep
 *.err
 *.o

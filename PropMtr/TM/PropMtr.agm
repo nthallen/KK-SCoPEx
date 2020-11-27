@@ -1,6 +1,11 @@
 Moduledef PropMtr [ ID=Left ADDR=63 IDX=0 FAST=2 SLOW=1 RT1=/* RT2=*/ ] {
   ID specifies which motor
   IDX is the index into the PropMtr.Ctrl and PropMtr_fast.Ctrl arrays.
+  modes:
+    types: use for first invocation. Defines types needed
+    default: can be used for the second drive (specifically
+      omitting the type definitions)
+    groups: required after all motors are defined
 }
 
 mode (types) {
