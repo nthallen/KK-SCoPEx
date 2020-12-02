@@ -1,24 +1,49 @@
 
 --------Frame Statistics-----------
 Major Frame: 2 minor frames, 1 Hz
-Minor Frame: 10 bytes, 2 Hz
+Minor Frame: 34 bytes, 2 Hz
 Effective Frame Dimensions:
-  2 Rows 10 Columns
+  2 Rows 34 Columns
   2 rows/sec
-  160 bits/sec
-  Data:  88 bits/sec  55 %
-  Synch: 64 bits/sec  40 %
-  Empty: 8 bits/sec  5 %
+  544 bits/sec
+  Data:  472 bits/sec  87 %
+  Synch: 64 bits/sec  12 %
+  Empty: 8 bits/sec  1 %
 -------End of Frame Statistics-----
 
 
 --------PCM Definition-------------
 2/1 Hz 2 bytes Datum MFCtr (1,0,0,2)
-2/1 Hz 2 bytes Datum Synch (1,0,8,2)
-1/1 Hz 4 bytes Datum SysTDrift (2,0,2,4)
-1/1 Hz 2 bytes Datum CPU_Pct (2,0,6,2)
-1/1 Hz 2 bytes Datum Disk (2,1,2,2)
-1/1 Hz 2 bytes Datum memused (2,1,4,2)
-1/1 Hz 1 bytes Datum SWStat (2,1,6,1)
+2/1 Hz 2 bytes Datum Synch (1,0,32,2)
+1/1 Hz 48 bytes Group B3MB1 (2,0,2,30) (2,1,2,18)
+1/1 Hz 2 bytes Member B3MB_100V1_LED_S (2,0,2,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Cmd_S (2,0,4,2)
+1/1 Hz 2 bytes Member B3MB_100V1_T5 (2,0,6,2)
+1/1 Hz 2 bytes Member B3MB_100V1_T4 (2,0,8,2)
+1/1 Hz 2 bytes Member B3MB_100V1_T3 (2,0,10,2)
+1/1 Hz 2 bytes Member B3MB_100V1_T2 (2,0,12,2)
+1/1 Hz 2 bytes Member B3MB_100V1_T1 (2,0,14,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Bus_V (2,0,16,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load4_I (2,0,18,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load3_I (2,0,20,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load2_I (2,0,22,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load1_I (2,0,24,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt4_I (2,0,26,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt3_I (2,0,28,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt2_I (2,0,30,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt1_I (2,1,2,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load4_V (2,1,4,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load3_V (2,1,6,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load2_V (2,1,8,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Load1_V (2,1,10,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt4_V (2,1,12,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt3_V (2,1,14,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt2_V (2,1,16,2)
+1/1 Hz 2 bytes Member B3MB_100V1_Batt1_V (2,1,18,2)
+1/1 Hz 4 bytes Datum SysTDrift (2,1,20,4)
+1/1 Hz 2 bytes Datum CPU_Pct (2,1,24,2)
+1/1 Hz 2 bytes Datum Disk (2,1,26,2)
+1/1 Hz 2 bytes Datum memused (2,1,28,2)
+1/1 Hz 1 bytes Datum SWStat (2,1,30,1)
 -------End of PCM Definition-------
 

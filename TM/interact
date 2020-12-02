@@ -10,11 +10,11 @@
   Launch      memo   memo -o $Experiment.log -l4 -v
               [ -z "$launch_err" ] &&
                 msg "Running script interact"
-# Launch      -      subbusd_slcan -n CAN -p $slcandev -v
+  Launch      -      subbusd_slcan -n CAN -p $slcandev -v
   Launch      tm_bfr bfr -s Both
   Launch      -TMC-  lgr -N `mlf_find LOG` -n lgr
-  Launch Debug     tm_gen scopexcol
-  Launch Debug cmd    scopexsrvr -s Unix -v
+  Launch      tm_gen scopexcol
+  Launch      cmd    scopexsrvr -s Unix -v
   Launch      -      tmdf
   [ -n "$propmtrdev" ] &&
   Launch      -      PropMtr -p $propmtrdev
